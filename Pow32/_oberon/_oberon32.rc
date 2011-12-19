@@ -1,0 +1,203 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource32.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "_oberon.h"
+#include "..\powsup\powsupp.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+DLGINCLUDE RCDATA DISCARDABLE 
+BEGIN
+    "_OBERON.H\0"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  25, 25, 152, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Oberon-2 Compiler Plug-In"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "Oberon-2 Compiler",-1,8,110,74,8
+    LTEXT           "Version xxx",IDD_ABOUTCOMPVERS,8,120,71,8
+    LTEXT           "Copyright (c) 1998 by",IDD_ABOUTCOMPYEAR,8,133,90,8
+    LTEXT           "Robinson Associates && FIM, University Linz",-1,8,143,
+                    143,8
+    LTEXT           "Pow!-Interface x.x",IDD_ABOUTINTERVERS,82,110,68,8
+    LTEXT           "Pow!-Link x.x",IDD_ABOUTLINKVERS,82,120,70,8
+    DEFPUSHBUTTON   "&Ok",IDD_OK,56,157,40,15,WS_GROUP
+END
+
+200 DIALOG DISCARDABLE  70, 13, 229, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Compiler Setup"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "Options",-1,7,7,101,114
+    CONTROL         "O&verflow Check",IDD_COPTOVER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,20,80,12
+    CONTROL         "&Type Check",IDD_COPTTYPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,34,80,12
+    CONTROL         "&Nil Check",IDD_COPTNILCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,48,80,12
+    CONTROL         "&Index Check",IDD_COPTINDEX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,62,80,12
+    CONTROL         "&Range Check",IDD_COPTRANGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,76,80,12
+    CONTROL         "Initialize &Pointers",IDD_COPTPTRINIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,90,80,12
+    CONTROL         "&ASSERT Evaluation",IDD_COPTASSERTEVAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,104,80,12
+    GROUPBOX        "&Debug information",-1,115,7,107,71
+    CONTROL         "No Debug Info",IDD_COPTDEBUGNONE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,123,20,85,13
+    CONTROL         "Codeview 4 Debug Info",IDD_COPTDEBUGCV,"Button",
+                    BS_AUTORADIOBUTTON,123,34,94,13
+    CONTROL         "Codeview 5 Debug Info",IDD_COPTDEBUGCV5,"Button",
+                    BS_AUTORADIOBUTTON,123,48,94,13
+    CONTROL         "COFF Line Numbers Only",IDD_COPTDEBUGCOFF,"Button",
+                    BS_AUTORADIOBUTTON,123,62,96,13
+    DEFPUSHBUTTON   "&Ok",IDD_OK,49,128,40,15
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,94,128,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,139,128,40,15
+END
+
+300 DIALOG DISCARDABLE  25, 15, 282, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Linker Setup"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "Options",-1,5,4,86,56
+    CONTROL         "&Suppress Linking",IDD_LOPTNOLINK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,17,75,10
+    CONTROL         "De&bug Symbols",IDD_LOPTDEBUG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,31,72,10
+    CONTROL         "Garbage Co&llection",IDD_LOPTGARBAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,45,75,10
+    GROUPBOX        "&Runtime system",-1,97,4,86,57
+    CONTROL         "Dynamic (DLL)",IDD_LOPTDYNAMICRTS,"Button",
+                    BS_AUTORADIOBUTTON | BS_NOTIFY | WS_GROUP | WS_TABSTOP,
+                    103,17,63,10
+    CONTROL         "Static",IDD_LOPTSTATICRTS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_NOTIFY | WS_TABSTOP,103,31,34,10
+    CONTROL         "None",IDD_LOPTNORTS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_NOTIFY | WS_TABSTOP,103,45,33,10
+    GROUPBOX        "&Target",-1,189,4,86,59
+    CONTROL         "Console",IDD_LOPTCONSOLE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,195,17,75,14
+    CONTROL         "Windows GUI",IDD_LOPTWIN32,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,195,31,75,14
+    CONTROL         "DLL",IDD_LOPTDLL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,195,45,75,14
+    GROUPBOX        "Startup",-1,5,66,103,75
+    LTEXT           "Stack si&ze:",-1,11,81,45,8
+    EDITTEXT        IDD_LOPTSTACK,62,79,40,12,ES_AUTOHSCROLL
+    LTEXT           "&Base address:",-1,11,95,46,8
+    EDITTEXT        IDD_LOPTBASE,62,93,40,12,ES_AUTOHSCROLL
+    LTEXT           "&Entry-point symbol:",-1,11,109,60,8
+    EDITTEXT        IDD_LOPTENTRY,20,121,82,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Exported Symbols",-1,115,66,160,75
+    EDITTEXT        IDD_LOPTFEDIT,121,79,85,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Add",IDD_LOPTEXPADD,211,78,26,13
+    PUSHBUTTON      "&Del",IDD_LOPTEXPDEL,240,78,26,13
+    LISTBOX         IDD_LOPTEXPLIST,121,95,145,40,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,66,148,40,15
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,122,148,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,178,148,40,15
+END
+
+400 DIALOG DISCARDABLE  46, 24, 227, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Directories"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "&Object Directory:",IDD_DIRSOBJ,6,8,214,36
+    EDITTEXT        IDD_DIRSOBJEDIT,13,23,200,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Ok",IDD_OK,41,54,40,15
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,93,54,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,145,54,40,15
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource32.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""_oberon.h""\r\n"
+    "#include ""..\\powsupp.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP  DISCARDABLE     "chili256.bmp"
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,12 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+HCW=0
+COMPRESS=60 Hall Zeck
+LCID=0xc07 0x0 0x0 ;German (Austrian)
+REPORT=Yes
+TITLE=WINAPI
+HLP=.\WINAPI.hlp
+
+[FILES]
+.\WINAPI.RTF

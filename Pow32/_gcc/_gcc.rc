@@ -1,0 +1,222 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Austria) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEA)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN_AUSTRIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 156, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,175,45,15
+    CTEXT           "GNU C++ Compiler PlugIn for Pow!",IDC_STATIC,10,10,135,
+                    8
+    CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,10,35,133,111
+    CTEXT           "Copyright © 1999 FIM - University Linz.",IDC_STATIC,10,
+                    155,135,8
+    CTEXT           "Version 1.0",IDC_STATIC,10,20,135,8
+END
+
+IDD_COMPILE DIALOG DISCARDABLE  0, 0, 272, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Compiler Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        " General Options ",IDC_STATIC,10,10,125,60
+    CONTROL         "Create &Debug information",IDC_DEBUG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,25,96,10
+    CONTROL         "&Generate profile information",IDC_PROFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,40,102,10
+    CONTROL         "Support all &ANSI C programs",IDC_SUPPORTANSI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,55,105,10
+    GROUPBOX        " Code Optimization ",IDC_STATIC,145,10,115,90,WS_GROUP
+    CONTROL         "No &Optimization",IDC_NOOPT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,155,25,65,10
+    CONTROL         "Optimize level &1",IDC_OPT1,"Button",BS_AUTORADIOBUTTON,
+                    155,40,65,10
+    CONTROL         "Optimize level &2",IDC_OPT2,"Button",BS_AUTORADIOBUTTON,
+                    155,55,65,10
+    CONTROL         "Optimize level &3",IDC_OPT3,"Button",BS_AUTORADIOBUTTON,
+                    155,70,65,10
+    CONTROL         "Optimize for &Size",IDC_OPTSIZE,"Button",
+                    BS_AUTORADIOBUTTON,155,85,68,10
+    GROUPBOX        " Warnings ",IDC_STATIC,10,75,125,90
+    CONTROL         "&Check only syntax errors",IDC_SYNTAX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,90,93,10
+    CONTROL         "&Warn if not standard ANSI C",IDC_WARNANSI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,106,105,10
+    CONTROL         "&Error, if not standard ANSI C",IDC_ERRORANSI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,121,105,10
+    CONTROL         "&Make all warnings into Errors",IDC_ALLERRORS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,135,106,10
+    CONTROL         "I&nhibit all warning messages",IDC_INHIBITWARN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,151,103,10
+    GROUPBOX        " Code Generation ",IDC_STATIC,145,120,115,45
+    CONTROL         "&i386",IDC_I386,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    155,135,29,10
+    CONTROL         "i&486",IDC_I486,"Button",BS_AUTORADIOBUTTON,155,150,29,
+                    10
+    CONTROL         "&Pentium",IDC_PENTIUM,"Button",BS_AUTORADIOBUTTON,195,
+                    135,41,10
+    CONTROL         "Pentium P&ro",IDC_PENTIUMPRO,"Button",
+                    BS_AUTORADIOBUTTON,195,150,54,10
+    GROUPBOX        " User defined Compiler Options ",IDC_STATIC,10,170,250,
+                    35
+    EDITTEXT        IDC_EXTRA_COMPILER_OPTIONS,20,185,230,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Help",IDHELP_COMPILE,10,215,50,15
+    DEFPUSHBUTTON   "OK",IDOK,155,215,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,211,215,50,15
+END
+
+IDD_LINK DIALOG DISCARDABLE  0, 0, 197, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Linker Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        " Link as ",IDC_STATIC,10,10,175,60
+    CONTROL         "&Console Application",IDC_CONSOLE,"Button",
+                    BS_AUTORADIOBUTTON,20,25,78,10
+    CONTROL         "&Windows GUI",IDC_WINDOWS,"Button",BS_AUTORADIOBUTTON,
+                    20,40,60,10
+    CONTROL         "&Dynamic Link Library",IDC_DLL,"Button",
+                    BS_AUTORADIOBUTTON,20,55,81,10
+    GROUPBOX        " User defined Linker Options",IDC_STATIC,10,75,175,35
+    EDITTEXT        IDC_EXTRA_LINKER_OPTIONS,20,90,155,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Help",IDHELP_LINK,10,120,45,15
+    DEFPUSHBUTTON   "OK",IDOK,90,120,45,15
+    PUSHBUTTON      "Cancel",IDCANCEL,140,120,45,15
+END
+
+IDD_DIR DIALOG DISCARDABLE  0, 0, 337, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Directories"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Directories:",IDC_STATIC,10,10,315,100
+    LTEXT           "&Home:",IDC_STATIC,20,27,45,8
+    EDITTEXT        IDC_HOMEDIR,75,25,240,12,ES_AUTOHSCROLL
+    LTEXT           "C &Include:",IDC_STATIC,20,47,45,8
+    EDITTEXT        IDC_C_INCLUDE_PATH,75,45,240,12,ES_AUTOHSCROLL
+    LTEXT           "C&++ Includes:",IDC_STATIC,20,67,45,9
+    EDITTEXT        IDC_CPLUS_INCLUDE_PATH,75,65,240,12,ES_AUTOHSCROLL
+    LTEXT           "&Libraries:",IDC_STATIC,20,87,50,8
+    EDITTEXT        IDC_LIBDIR,75,85,240,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Help",IDHELP_DIR,10,120,50,15
+    DEFPUSHBUTTON   "OK",IDOK,220,120,50,15
+    PUSHBUTTON      "&Cancel",IDCANCEL,275,120,50,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_COMPILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_LINK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 330
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BLUEGNU             BITMAP  DISCARDABLE     "_gcc.bmp"
+#endif    // German (Austria) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

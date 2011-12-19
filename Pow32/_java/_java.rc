@@ -1,0 +1,184 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+COMPILEROPTIONS DIALOG DISCARDABLE  23, 35, 218, 175
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Java Compiler"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Optimize code",IDC_OPTIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,21,62,12
+    CONTROL         "&Check syntax only",IDC_NOBYTECODE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,35,94,12
+    CONTROL         "&No warnings",IDC_NOWARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,49,59,12
+    CONTROL         "&Debug information",IDC_JAVADEBUG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,63,71,12
+    EDITTEXT        IDC_JAVAMORE,74,76,133,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COMMANDSTRING,74,123,133,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,55,155,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,113,155,50,14
+    GROUPBOX        "Compiler Options",IDC_CODEGROUPBOX,7,7,204,91
+    LTEXT           "&Additional Options:",-1,14,78,60,8
+    GROUPBOX        "Execution",IDC_CODEGROUPBOX2,7,107,204,37
+    LTEXT           "Command &String:",-1,14,125,60,8
+END
+
+IDC_ABOUTBMP DIALOG DISCARDABLE  22, 36, 155, 167
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About JDK Compiler Plug-In"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,145,50,14
+    CTEXT           "Sun JDK Compiler Plug-In for POW!",IDC_STATIC,3,109,151,
+                    10
+    CTEXT           "Copyright (c) 1998 by FIM",IDC_STATIC,3,120,151,10
+    CTEXT           "Johannes Kepler University Linz, Austria",IDC_STATIC,3,
+                    130,151,10
+END
+
+DIRPATHES DIALOG DISCARDABLE  42, 41, 236, 120
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "JDK Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CLASSPATH,66,24,155,12,ES_AUTOHSCROLL
+    CONTROL         "&Save class path in project",IDC_PRJLOCALCLASSPATH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,42,93,10
+    EDITTEXT        IDC_COMPILERPATH,66,66,155,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Ok",IDOK,34,98,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,94,98,50,14
+    GROUPBOX        "Directories",IDC_DIRECTORYGROUP,6,8,223,82
+    LTEXT           "Class &path:",-1,14,25,47,8
+    LTEXT           "&JDK Home:",-1,14,67,50,8
+    PUSHBUTTON      "&Help",ID_HELP,153,98,50,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    COMPILEROPTIONS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 170
+    END
+
+    IDC_ABOUTBMP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 154
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP  DISCARDABLE     "coffee256.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMPILERVERSION     "JDK 1.1.3"
+    IDS_COMPILERYEAR        "1997"
+    IDS_LINKERVERSION       "-"
+    IDS_LINKERYEAR          "-"
+    IDS_LICENCE             "Educational and private use only"
+    IDS_INTERFACEVERSION    "Java Interface V1.0"
+    IDS_INTERFACEYEAR       "(c) 1995/96"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEBUG               "-debug"
+    IDS_OPTIMIZE            "-O"
+    IDS_NOWARNING           "-nowarn"
+    IDS_NOBYTECODE          "-nowrite"
+    IDS_CLASSPATH           "-classpath"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

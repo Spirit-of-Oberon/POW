@@ -1,0 +1,58 @@
+LIBRARY      PowSup32
+
+DESCRIPTION  'Pow! Supporter DLL for flexible Interfacing'
+
+HEAPSIZE     1024
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+EXPORTS      InitSupporterDLL @1
+
+             PurgeList @2
+             AddElem @3
+             DelElem @4
+             ChgElem @5
+             MoveElem @6
+             GetElem @7
+             GetElemH @8
+             FindElem @9
+             CountList @10
+             LenElem @11
+             ListForEach @12
+             AddSort @13
+             AddStr @14
+             DelStr @15
+             GetStr @16
+             FindStr @17
+
+             ListToCombo @18
+             ListToLBox @19
+             LBoxToList @20
+             OpenOut @21
+             OpenIn @22
+             CloseOut @23
+             CloseIn @24
+             PutStr @25
+             ReadStr @26
+             WriteStr @27
+             FileOut @28
+             FileIn @29
+             WriteList @30
+             ReadList @31
+             DownCase @32
+             DownStr @33
+             Wildcard @34
+             MakeStr @37
+             MakeLon @38
+             PutListElem @40
+             PowButtonWndProc @48
+             ExitSupporterDLL @51
+             ReadBytes @53
+             WriteBytes @54
+             ShrinkDir @55
+             StretchDir @56
+
+             MyDllEntryPoint @57
+             GetInFile @58
+             GetOutFile @59

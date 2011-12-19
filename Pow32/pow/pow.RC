@@ -1,0 +1,1006 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "pow.h"
+#include "..\PowSup\powsupp.h"
+#include <dlgs.h>
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Austria) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEA)
+#ifdef _WIN32
+//LANGUAGE LANG_GERMAN, SUBLANG_GERMAN_AUSTRIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDPOW                   ICON    DISCARDABLE     "POW.ICO"
+IDNOTE                  ICON    DISCARDABLE     "CHILDREN.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+STATMAP                 BITMAP  MOVEABLE PURE   "STAT.BMP"
+STATBAR                 BITMAP  MOVEABLE PURE   "SBAR.BMP"
+GREYMAP                 BITMAP  MOVEABLE PURE   "GREY.BMP"
+SHADE                   BITMAP  MOVEABLE PURE   "SHADE.BMP"
+FIMLOGO                 BITMAP  MOVEABLE PURE   "FIMLOGO.BMP"
+FIMLOGO2                BITMAP  MOVEABLE PURE   "FIMLOGO2.BMP"
+OPEN                    BITMAP  MOVEABLE PURE   "OPEN.BMP"
+OPENSEL                 BITMAP  MOVEABLE PURE   "OPENSEL.BMP"
+OPENGRY                 BITMAP  MOVEABLE PURE   "OPENGRY.BMP"
+SAVE                    BITMAP  MOVEABLE PURE   "SAVE.BMP"
+SAVESEL                 BITMAP  MOVEABLE PURE   "SAVESEL.BMP"
+SAVEGRY                 BITMAP  MOVEABLE PURE   "SAVEGRY.BMP"
+COMP                    BITMAP  MOVEABLE PURE   "COMP.BMP"
+COMPSEL                 BITMAP  MOVEABLE PURE   "COMPSEL.BMP"
+COMPGRY                 BITMAP  MOVEABLE PURE   "COMPGRY.BMP"
+MAKE                    BITMAP  MOVEABLE PURE   "MAKE.BMP"
+MAKESEL                 BITMAP  MOVEABLE PURE   "MAKESEL.BMP"
+MAKEGRY                 BITMAP  MOVEABLE PURE   "MAKEGRY.BMP"
+RUN                     BITMAP  MOVEABLE PURE   "RUN.BMP"
+RUNSEL                  BITMAP  MOVEABLE PURE   "RUNSEL.BMP"
+RUNGRY                  BITMAP  MOVEABLE PURE   "RUNGRY.BMP"
+LOGO                    BITMAP  MOVEABLE PURE   "LOGO.BMP"
+LOGOSEL                 BITMAP  MOVEABLE PURE   "LOGOSEL.BMP"
+TOOL1                   BITMAP  MOVEABLE PURE   "TOOL1.BMP"
+TOOL2                   BITMAP  MOVEABLE PURE   "TOOL2.BMP"
+TOOL3                   BITMAP  MOVEABLE PURE   "TOOL3.BMP"
+TOOL4                   BITMAP  MOVEABLE PURE   "TOOL4.BMP"
+TOOL5                   BITMAP  MOVEABLE PURE   "TOOL5.BMP"
+TOOL0                   BITMAP  MOVEABLE PURE   "TOOL6.BMP"
+TOOLSEL                 BITMAP  MOVEABLE PURE   "TOOLSEL6.BMP"
+TOOL6                   BITMAP  MOVEABLE PURE   "BMP00001.BMP"
+TOOL7                   BITMAP  MOVEABLE PURE   "TOOL7.BMP"
+TOOL                    BITMAP  MOVEABLE PURE   "TOOL.BMP"
+TOOL8                   BITMAP  MOVEABLE PURE   "TOOL8.BMP"
+TOOL9                   BITMAP  MOVEABLE PURE   "TOOL9.BMP"
+TOOL10                  BITMAP  MOVEABLE PURE   "TOOL10.BMP"
+TOOL11                  BITMAP  MOVEABLE PURE   "TOOL11.BMP"
+TOOL12                  BITMAP  MOVEABLE PURE   "TOOL12.BMP"
+TOOL13                  BITMAP  MOVEABLE PURE   "TOOL13.BMP"
+TOOL14                  BITMAP  MOVEABLE PURE   "TOOL14.BMP"
+TOOL15                  BITMAP  MOVEABLE PURE   "TOOL15.BMP"
+TOOL16                  BITMAP  MOVEABLE PURE   "TOOL16.BMP"
+TOOL17                  BITMAP  MOVEABLE PURE   "TOOL17.BMP"
+TOOL18                  BITMAP  MOVEABLE PURE   "TOOL18.BMP"
+TOOL19                  BITMAP  MOVEABLE PURE   "TOOL19.BMP"
+TOOL20                  BITMAP  MOVEABLE PURE   "TOOL20.BMP"
+TOOL21                  BITMAP  MOVEABLE PURE   "TOOL21.BMP"
+TOOL22                  BITMAP  MOVEABLE PURE   "TOOL22.BMP"
+TOOL23                  BITMAP  MOVEABLE PURE   "TOOL23.BMP"
+TOOL24                  BITMAP  MOVEABLE PURE   "TOOL24.BMP"
+TOOL25                  BITMAP  MOVEABLE PURE   "TOOL25.BMP"
+TOOL26                  BITMAP  MOVEABLE PURE   "TOOL26.BMP"
+TOOL27                  BITMAP  MOVEABLE PURE   "TOOL27.BMP"
+TOOL28                  BITMAP  MOVEABLE PURE   "TOOL28.BMP"
+TOOL29                  BITMAP  MOVEABLE PURE   "TOOL29.BMP"
+TOOL30                  BITMAP  MOVEABLE PURE   "TOOL30.BMP"
+TOOL31                  BITMAP  MOVEABLE PURE   "TOOL31.BMP"
+TOOL32                  BITMAP  MOVEABLE PURE   "TOOL32.BMP"
+TOOL33                  BITMAP  MOVEABLE PURE   "TOOL33.BMP"
+TOOL34                  BITMAP  MOVEABLE PURE   "TOOL34.BMP"
+TOOL35                  BITMAP  MOVEABLE PURE   "TOOL35.BMP"
+TOOL36                  BITMAP  MOVEABLE PURE   "TOOL36.BMP"
+TOOL37                  BITMAP  MOVEABLE PURE   "TOOL37.BMP"
+TOOL38                  BITMAP  MOVEABLE PURE   "TOOL38.BMP"
+TOOL39                  BITMAP  MOVEABLE PURE   "TOOL39.BMP"
+TOOL40                  BITMAP  MOVEABLE PURE   "TOOL40.BMP"
+TOOL41                  BITMAP  MOVEABLE PURE   "TOOL41.BMP"
+TOOL42                  BITMAP  MOVEABLE PURE   "TOOL42.BMP"
+TOOL43                  BITMAP  MOVEABLE PURE   "TOOL43.BMP"
+PRINT                   BITMAP  DISCARDABLE     "PRINT.BMP"
+PRINTSEL                BITMAP  DISCARDABLE     "PRINTSEL.BMP"
+IDB_FIMABOUT            BITMAP  DISCARDABLE     "FIMABOUT.BMP"
+IDB_INTRO               BITMAP  DISCARDABLE     "main256.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDPOW MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        POPUP "&New"
+        BEGIN
+            MENUITEM "&Module",                     IDM_FILENEW
+            POPUP "&Project"
+            BEGIN
+                MENUITEM "&Other...",                   IDM_FILEPRJOTHER
+            END
+        END
+        MENUITEM "&Open...\tCtrl+F12",          IDM_FILEOPEN
+        MENUITEM "&Save\tShift+F12",            IDM_FILESAVE
+        MENUITEM "Save &as...\tF12",            IDM_FILESAVEAS
+        MENUITEM "Save a&ll",                   IDM_FILESAVEALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      IDM_FILEPRINT
+        MENUITEM "P&rinter setup...",           IDM_FILESETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               IDM_FILEEXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tAlt+BkSp",             IDM_EDITUNDO
+        MENUITEM "&Redo",                       IDM_EDITREDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tShift+Del",             IDM_EDITCUT
+        MENUITEM "&Copy\tCtrl+Ins",             IDM_EDITCOPY
+        MENUITEM "&Paste\tShift+Ins",           IDM_EDITPASTE
+        MENUITEM "C&lear\tCtrl+Del",            IDM_EDITCLEAR
+    END
+    POPUP "&Search"
+    BEGIN
+        MENUITEM "&Find...\tShift+F3",          IDM_SEARCHFIND
+        MENUITEM "&Replace...\tCtrl+F3",        IDM_SEARCHREPLACE
+        MENUITEM "&Search again\tF3",           IDM_SEARCHNEXT
+        MENUITEM SEPARATOR
+        MENUITEM "&Goto line number...\tF5",    IDM_SEARCHGOTOLINE
+        MENUITEM SEPARATOR
+        MENUITEM "&Next error\tF8",             IDM_SEARCHFINDNEXTERR
+        MENUITEM "&Previous error\tF7",         IDM_SEARCHFINDPREVERR
+        MENUITEM "&Ignore warnings",            IDM_SEARCHIGNOREWARNINGS
+        , CHECKED
+    END
+    POPUP "&Compile"
+    BEGIN
+        MENUITEM "&Compile\tAlt+F9",            IDM_COMPCOMP
+        MENUITEM "&Make\tF9",                   IDM_COMPMAKE
+        MENUITEM "&Build",                      IDM_COMPBUILD
+        MENUITEM "Lin&k",                       IDM_COMPLINK
+    END
+    POPUP "&Project"
+    BEGIN
+        MENUITEM "&New",                        65535
+        MENUITEM "&Open...",                    IDM_COMPOPENPRJ
+        MENUITEM "&Edit...",                    IDM_COMPEDITPRJ, GRAYED
+        MENUITEM "Save &as...",                 IDM_COMPSAVEASPRJ, GRAYED
+        MENUITEM "C&lose",                      IDM_COMPCLOSPRJ, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Save as &Template...",        IDM_COMPSAVETEMP, GRAYED
+    END
+    POPUP "&Run"
+    BEGIN
+        MENUITEM "&Run\tCtrl+F9",               IDM_RUNRUN
+        MENUITEM "&Parameters...",              IDM_RUNPARAM
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options...",                 IDM_TOOLSOPT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Editor...",                  IDM_OPTEDIT
+        MENUITEM "&Compiler...",                IDM_OPTCOMP
+        MENUITEM "&Linker...",                  IDM_OPTLINK
+        MENUITEM "&Directories...",             IDM_OPTDIR
+        MENUITEM SEPARATOR
+        MENUITEM "&Preferences...",             IDM_OPTPREF
+        MENUITEM SEPARATOR
+        MENUITEM "&Open...",                    IDM_OPTOPEN
+        MENUITEM "&Save",                       IDM_OPTSAVE
+        MENUITEM "S&ave as...",                 IDM_OPTSAVEAS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "Tile &horizontal\tShift+F5",  IDM_WINDOWTILEHOR
+        MENUITEM "Tile &vertical\tShift+F6",    IDM_WINDOWTILEVER
+        MENUITEM "&Cascade\tShift+F4",          IDM_WINDOWCASCADE
+        MENUITEM "Arrange &icons",              IDM_WINDOWICONS
+        MENUITEM "Close &all",                  IDM_WINDOWCLOSEALL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Pow!\tF1",                   IDM_HELPINDEX
+        MENUITEM "&Compiler\tAlt+F1",           IDM_HELPCOMP
+        MENUITEM "Compiler &topic search\tCtrl+F1", IDM_HELPTOPIC
+        MENUITEM "&Editor",                     IDM_HELPEDIT
+        MENUITEM "Using &help",                 IDM_HELPUSING
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   IDM_HELPABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Bug report...",              IDM_BUGREPORT
+    END
+END
+
+IDPOW2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_FILENEW
+        MENUITEM "&Open...",                    IDM_FILEOPEN
+        MENUITEM "&Save",                       IDM_FILESAVE
+        MENUITEM "Save &as...",                 IDM_FILESAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   IDM_FILEPRINT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILEEXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tAlt+BkSp",             IDM_EDITUNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Cut\tShift+Del",             IDM_EDITCUT
+        MENUITEM "Co&py\tCtrl+Ins",             IDM_EDITCOPY
+        MENUITEM "&Paste\tShift+Ins",           IDM_EDITPASTE
+        MENUITEM "C&lear\tCtrl+Del",            IDM_EDITCLEAR
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Arrange",                    IDM_WINDOWTILEVER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDPOW ACCELERATORS MOVEABLE PURE 
+BEGIN
+    VK_F4,          IDM_FILEEXIT,           VIRTKEY, ALT
+    VK_INSERT,      IDM_EDITCOPY,           VIRTKEY, CONTROL
+    VK_INSERT,      IDM_EDITPASTE,          VIRTKEY, SHIFT
+    VK_DELETE,      IDM_EDITCUT,            VIRTKEY, SHIFT
+    VK_BACK,        IDM_EDITUNDO,           VIRTKEY, ALT
+    VK_DELETE,      IDM_EDITCLEAR,          VIRTKEY, CONTROL
+    VK_F3,          IDM_SEARCHNEXT,         VIRTKEY 
+    VK_F3,          IDM_SEARCHFIND,         VIRTKEY, SHIFT
+    VK_F3,          IDM_SEARCHREPLACE,      VIRTKEY, CONTROL
+    VK_F9,          IDM_RUNRUN,             VIRTKEY, CONTROL
+    VK_F9,          IDM_COMPCOMP,           VIRTKEY, ALT
+    VK_F9,          IDM_COMPMAKE,           VIRTKEY 
+    VK_F5,          IDM_SEARCHGOTOLINE,     VIRTKEY 
+    VK_F6,          IDM_WINDOWTILEVER,      VIRTKEY, SHIFT
+    VK_F5,          IDM_WINDOWTILEHOR,      VIRTKEY, SHIFT
+    VK_F4,          IDM_WINDOWCASCADE,      VIRTKEY, SHIFT
+    VK_F1,          IDM_HELPINDEX,          VIRTKEY 
+    VK_F1,          IDM_HELPTOPIC,          VIRTKEY, CONTROL
+    VK_F1,          IDM_HELPCOMP,           VIRTKEY, ALT
+    VK_F7,          IDM_SEARCHFINDPREVERR,  VIRTKEY 
+    VK_F8,          IDM_SEARCHFINDNEXTERR,  VIRTKEY 
+    VK_F12,         IDM_FILEOPEN,           VIRTKEY, CONTROL
+    VK_F12,         IDM_FILESAVE,           VIRTKEY, SHIFT
+    VK_F12,         IDM_FILESAVEAS,         VIRTKEY 
+    "N",            IDM_FILENEW,            VIRTKEY, CONTROL
+    "O",            IDM_FILEOPEN,           VIRTKEY, CONTROL
+    "S",            IDM_FILESAVE,           VIRTKEY, CONTROL
+    "X",            IDM_EDITCUT,            VIRTKEY, CONTROL
+    "C",            IDM_EDITCOPY,           VIRTKEY, CONTROL
+    "V",            IDM_EDITPASTE,          VIRTKEY, CONTROL
+    "Z",            IDM_EDITUNDO,           VIRTKEY, CONTROL
+    "A",            IDM_EDITREDO,           VIRTKEY, CONTROL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+DLGINCLUDE RCDATA DISCARDABLE 
+BEGIN
+    "POW.H\0"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+301 DIALOG DISCARDABLE  25, 25, 191, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Pow!"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,4,5,182,82
+    LTEXT           "Pow!",IDD_ABOUTPOW,8,17,110,8
+    LTEXT           "Programmers Open Workbench",-1,8,29,110,8
+    LTEXT           "Release 3.03",-1,8,39,110,8
+    LTEXT           "(c) 1997 FIM",-1,8,49,110,8
+    LTEXT           "University of Linz, Austria",-1,8,62,175,8
+    LTEXT           "http://www.fim.uni-linz.ac.at",-1,8,72,175,8
+    DEFPUSHBUTTON   "&Ok",IDD_OK,75,94,40,15,WS_GROUP
+END
+
+400 DIALOG DISCARDABLE  42, 31, 145, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,8,1,129,60
+    CTEXT           "&Find:",-1,15,13,20,11
+    COMBOBOX        IDD_FINDTEXT,39,12,91,43,CBS_DROPDOWN | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Case &Sensitive",IDD_FINDCASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,29,74,12
+    CONTROL         "&Whole Word only",IDD_FINDWORD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,44,81,12
+    GROUPBOX        "Direction",-1,8,66,129,33
+    CONTROL         "&Up",IDD_FINDUP,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,15,82,44,14
+    CONTROL         "&Down",IDD_FINDDOWN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,82,82,44,14
+    DEFPUSHBUTTON   "&Ok",IDD_OK,7,107,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,53,107,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,97,107,40,15
+END
+
+500 DIALOG DISCARDABLE  42, 31, 177, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Replace"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,7,1,163,80
+    LTEXT           "O&ld:",-1,14,13,20,11
+    COMBOBOX        IDD_REPLACESRC,39,11,123,43,CBS_DROPDOWN | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&New:",-1,14,29,20,11
+    COMBOBOX        IDD_REPLACEDST,39,28,123,43,CBS_DROPDOWN | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Case &Sensitive",IDD_REPLACECASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,47,60,12
+    CONTROL         "&Whole Word only",IDD_REPLACEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,82,47,78,12
+    CONTROL         "Replace &All",IDD_REPLACEALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,62,53,12
+    CONTROL         "Ask &before replacing",IDD_REPLACEASK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,82,62,78,12
+    GROUPBOX        "Direction",-1,7,87,162,29
+    CONTROL         "&Up",IDD_REPLACEUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,14,98,44,14
+    CONTROL         "&Down",IDD_REPLACEDOWN,"Button",BS_AUTORADIOBUTTON,82,
+                    98,43,14
+    DEFPUSHBUTTON   "&Ok",IDD_OK,22,123,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,68,123,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,114,123,40,15
+END
+
+600 DIALOG DISCARDABLE  44, 37, 210, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,5,2,197,52
+    LTEXT           "Printing",-1,9,14,45,10
+    LTEXT           "on the",-1,9,25,45,10
+    LTEXT           "on",-1,9,36,45,10
+    LTEXT           "",IDD_PRINTTITLE,58,14,138,10
+    LTEXT           "",IDD_PRINTDEVICE,58,25,138,10
+    LTEXT           "",IDD_PRINTPORT,58,36,138,10
+    DEFPUSHBUTTON   "&Cancel",IDD_CANCEL,162,60,40,15,WS_GROUP
+END
+
+700 DIALOG DISCARDABLE  45, 52, 154, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Goto Line"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,7,3,140,32
+    LTEXT           "&Goto Line #:",-1,13,16,42,14
+    EDITTEXT        IDD_GOTONUMBER,59,15,79,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Ok",IDD_OK,7,44,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,56,44,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,106,44,40,15
+END
+
+800 DIALOG DISCARDABLE  45, 52, 227, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Program Arguments"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "&Arguments:",IDD_RUNARGSGRP,6,6,214,38
+    EDITTEXT        IDD_RUNARGS,14,23,199,12,ES_AUTOHSCROLL | WS_GROUP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,38,54,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,93,54,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,145,54,40,15
+END
+
+1000 DIALOG DISCARDABLE  36, 24, 316, 233
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Project"
+FONT 8, "Helv"
+BEGIN
+    DEFPUSHBUTTON   "&Add",IDD_PRJADD,276,149,25,14
+    PUSHBUTTON      "De&l",IDD_PRJDEL,276,166,25,14
+    LTEXT           "File &Name:",stc3,10,10,76,9
+    EDITTEXT        edt1,10,22,110,12,ES_AUTOHSCROLL | ES_OEMCONVERT
+    LISTBOX         lst1,10,39,110,61,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "&Directories:",IDC_STATIC,130,10,110,9
+    LTEXT           "",stc1,130,22,110,9,SS_NOPREFIX
+    LISTBOX         lst2,130,39,110,61,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "List Files of &Type:",stc2,10,100,110,9
+    COMBOBOX        cmb1,10,112,110,68,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dri&ves:",stc4,130,100,110,9
+    COMBOBOX        cmb2,130,112,110,68,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | 
+                    CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "&Project files:",IDC_STATIC,10,136,297,87
+    LISTBOX         IDD_PRJLIST,15,149,256,68,LBS_SORT | LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_GROUP | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Ok",IDD_OK,250,9,56,14,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,250,27,56,14,WS_GROUP
+    PUSHBUTTON      "&Help",IDD_HELP,250,49,56,14,WS_GROUP
+    CONTROL         "&Read Only",chx1,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,9999,68,50,12
+END
+
+1300 DIALOG DISCARDABLE  19, 23, 258, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tools"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "Co&ntents:",IDD_TOOLGRP,6,6,194,207
+    LISTBOX         IDD_TOOLLIST,13,23,78,50,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "Add E&XE...",IDD_TOOLADDEXE,97,23,45,14
+    PUSHBUTTON      "D&elete",IDD_TOOLDEL,146,23,45,14
+    PUSHBUTTON      "Add D&LL...",IDD_TOOLADDDLL,97,40,45,14
+    PUSHBUTTON      "Move &Up",IDD_TOOLUP,146,40,45,14
+    PUSHBUTTON      "Add D&DE...",IDD_TOOLADDDDE,97,58,45,14
+    PUSHBUTTON      "Mo&ve Down",IDD_TOOLDOWN,146,58,45,14
+    CONTROL         "&Menu Entry",IDD_TOOLMENUENTRY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,81,65,14
+    LTEXT           "Menu &Text:",-1,13,98,54,12
+    EDITTEXT        IDD_TOOLMENUTEXT,13,111,80,12,ES_AUTOHSCROLL
+    CONTROL         "Speed-&button",IDD_TOOLSPEEDBUTTON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,97,81,78,14
+    LISTBOX         IDD_TOOLICONLIST,97,100,96,23,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | WS_HSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "&Pathname",IDD_TOOLTEXT1NAME,13,134,54,13
+    EDITTEXT        IDD_TOOLTEXT1,71,132,121,13,ES_AUTOHSCROLL | 
+                    ES_OEMCONVERT
+    LTEXT           "&Initial Directory:",IDD_TOOLTEXT2NAME,13,149,54,12
+    EDITTEXT        IDD_TOOLTEXT2,71,147,121,12,ES_AUTOHSCROLL
+    LTEXT           "Ar&guments:",-1,13,163,54,12
+    EDITTEXT        IDD_TOOLARG,71,161,121,12,ES_AUTOHSCROLL
+    CONTROL         "A&sk for Arguments",IDD_TOOLASK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,181,75,12
+    CONTROL         "Pow! &Window On Top",IDD_TOOLTOTOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,97,181,85,12
+    CONTROL         "&Automatic start at Pow! startup",IDD_TOOLAUTOSTART,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,196,164,12
+    DEFPUSHBUTTON   "&Ok",IDD_OK,208,10,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,208,30,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,208,50,40,15
+END
+
+1400 DIALOG DISCARDABLE  45, 52, 227, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tool Arguments"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "&Arguments:",IDD_TARGARGSGRP,7,6,214,36
+    EDITTEXT        IDD_TARGARGS,14,21,199,12,ES_AUTOHSCROLL | WS_GROUP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,37,53,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,92,53,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,147,54,40,15
+END
+
+1500 DIALOG DISCARDABLE  30, 32, 230, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Preferences"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "&Editor",IDD_PREFEDITGRP,10,10,100,35,WS_TABSTOP
+    COMBOBOX        IDD_PREFEDITOR,17,24,85,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_BORDER | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Speedbar position",-1,10,48,100,65
+    CONTROL         "On &Top",IDD_PREFRIBBTOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,18,62,71,14
+    CONTROL         "On &Bottom",IDD_PREFRIBBBOT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,18,78,71,14
+    GROUPBOX        "Com&piler",IDD_PREFCOMPGRP,120,10,100,35
+    COMBOBOX        IDD_PREFCOMPILER,127,24,85,72,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_BORDER | WS_VSCROLL | WS_GROUP | 
+                    WS_TABSTOP
+    GROUPBOX        "Save on exit",-1,120,48,100,65
+    CONTROL         "Project &file",IDD_PREFSAVEPRJ,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,128,62,56,14
+    CONTROL         "&Desktop",IDD_PREFSAVEDESK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,78,50,14
+    CONTROL         "Configu&ration",IDD_PREFSAVECFG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,128,94,58,14
+    DEFPUSHBUTTON   "&Ok",IDD_OK,42,124,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,94,124,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,146,124,40,15
+END
+
+1700 DIALOG DISCARDABLE  46, 64, 198, 78
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Printing Device"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "Choose &Printer",IDD_PRINTERLSTGRP,6,10,185,37
+    COMBOBOX        IDD_PRINTERLIST,13,24,169,48,CBS_DROPDOWNLIST | 
+                    WS_BORDER | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,6,56,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,54,56,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,103,56,40,15
+    PUSHBUTTON      "&Setup",IDD_SETUP,151,55,40,15
+END
+
+1100 DIALOG DISCARDABLE  34, 17, 249, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Bug Report"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "&Topic:",1121,13,21,22,8
+    EDITTEXT        1122,39,19,84,12,ES_AUTOHSCROLL
+    EDITTEXT        1102,13,37,211,57,ES_MULTILINE | ES_AUTOVSCROLL
+    LTEXT           "&Environment:",1124,13,104,44,8
+    EDITTEXT        1125,61,101,163,21,ES_MULTILINE
+    LTEXT           "&Your name:",1101,13,130,41,8
+    EDITTEXT        1123,61,128,101,12,ES_AUTOHSCROLL
+    LTEXT           "Type:",1103,13,146,20,8
+    CONTROL         "&Bug",1104,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,44,145,26,10
+    CONTROL         "&Improvement",1105,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,79,145,59,10
+    CONTROL         "&Question",1126,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,143,145,59,10
+    LTEXT           "Fix it:",1106,14,163,21,8
+    CONTROL         "i&mmediate",1107,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,44,163,48,10
+    CONTROL         "&next Version",1108,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,98,163,56,10
+    CONTROL         "not &urgent",1109,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,160,163,47,10
+    LTEXT           "Priority:",1110,14,180,29,8
+    LTEXT           "(highest)",1116,44,180,30,8
+    CONTROL         "&1",1111,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,81,179,16,10
+    CONTROL         "&2",1112,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,103,
+                    179,17,10
+    CONTROL         "&3",1113,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,126,
+                    179,17,10
+    CONTROL         "&4",1114,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,149,
+                    179,17,10
+    CONTROL         "&5",1115,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,172,
+                    179,17,10
+    LTEXT           "(lowest)",1117,195,180,29,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "&Add to Report File",1118,21,204,69,14,WS_GROUP
+    PUSHBUTTON      "C&lear Report File",1120,103,204,70,14
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,189,204,40,14
+    GROUPBOX        "Bug Description",-1,7,6,235,191
+END
+
+1800 DIALOG DISCARDABLE  45, 52, 209, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add DLL Tool"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,6,2,195,65
+    LTEXT           "&DLL Name:",IDD_DLLNAME,13,15,47,11
+    EDITTEXT        IDD_DLLNAMEEDIT,65,13,126,12
+    LTEXT           "&Function:",IDD_DLLFUNCTION,13,31,47,12
+    EDITTEXT        IDD_DLLFUNCTIONEDIT,65,29,126,12
+    LTEXT           "&Arguments:",IDD_DLLARGUMENTS,13,47,47,13
+    EDITTEXT        IDD_DLLARGUMENTSEDIT,65,45,126,12
+    DEFPUSHBUTTON   "&Ok",IDD_OK,29,78,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,84,78,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,138,78,40,15
+END
+
+1900 DIALOG DISCARDABLE  45, 52, 203, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add DDE Tool"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,6,1,189,65
+    LTEXT           "&Service:",IDD_DDDESERVICE,13,14,42,12
+    EDITTEXT        IDD_DDESERVICEEDIT,61,13,126,12
+    LTEXT           "&Topic:",IDD_DDETOPIC,13,30,42,12
+    EDITTEXT        IDD_DDETOPICEDIT,61,29,126,12
+    LTEXT           "&Arguments:",IDD_DDEARGUMENTS,13,47,42,12
+    EDITTEXT        IDD_DDEARGUMENTSEDIT,61,46,126,12
+    DEFPUSHBUTTON   "&Ok",IDD_OK,25,75,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,81,75,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,135,75,40,15
+END
+
+2000 DIALOG DISCARDABLE  28, 23, 179, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Project from Template"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "&New Project",IDD_TPLNEWPRJGRP,5,6,121,33
+    EDITTEXT        edt1,10,19,110,12,ES_AUTOHSCROLL | ES_OEMCONVERT
+    EDITTEXT        IDD_TPLPROJ,136,140,42,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | WS_GROUP
+    GROUPBOX        "&Directories",IDD_OPNDIRSGRP,5,42,121,100
+    LISTBOX         lst2,11,70,108,47,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_GROUP | 
+                    WS_TABSTOP
+    COMBOBOX        cmb2,11,124,108,60,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL
+    LTEXT           "",stc1,11,54,107,12
+    GROUPBOX        "New D&irectory",IDD_TPLNEWDIRGRP,5,145,121,48
+    EDITTEXT        IDD_TPLSUBDIR,11,158,109,13,ES_AUTOHSCROLL | WS_GROUP
+    CONTROL         "Create &Source Directory",IDD_TPLSOURCEDIR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,175,106,12
+    DEFPUSHBUTTON   "&Ok",IDD_OK,133,10,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,133,31,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,133,52,40,15
+    LISTBOX         lst1,144,94,18,23,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | NOT WS_VISIBLE | 
+                    WS_VSCROLL
+    COMBOBOX        cmb1,141,119,23,46,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Read Only",chx1,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,9999,68,50,12
+END
+
+2100 DIALOG DISCARDABLE  28, 23, 215, 173
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Project from Template"
+FONT 8, "Helv"
+BEGIN
+    EDITTEXT        IDD_NEWPRJNAME,13,19,161,12,ES_AUTOHSCROLL
+    LTEXT           "________________________",IDD_NEWPRJDIR,13,60,150,25
+    PUSHBUTTON      "&Browse",IDD_NEWPRJBROWSE,169,58,33,13,WS_GROUP
+    CONTROL         "Create new &directory for project:",IDD_NEWPRJCREATE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,89,123,13
+    LTEXT           "________________________",IDD_NEWPRJNEWDIR,21,103,185,
+                    33
+    DEFPUSHBUTTON   "&Ok",IDD_OK,40,150,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,87,150,40,15
+    PUSHBUTTON      "&Help",IDD_HELP,134,150,40,15
+    GROUPBOX        "&Name:",-1,6,7,205,34
+    GROUPBOX        "&Directory:",-1,6,44,205,97
+END
+
+2200 DIALOG DISCARDABLE  28, 23, 179, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Directory"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "",stc1,11,14,107,12
+    LISTBOX         lst2,11,30,108,47,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    COMBOBOX        cmb2,11,84,108,60,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,133,10,40,15,WS_GROUP
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,133,31,40,15
+    GROUPBOX        "&Directory",-1,5,5,121,100
+    EDITTEXT        edt1,9999,19,110,12,ES_AUTOHSCROLL | ES_OEMCONVERT | NOT 
+                    WS_VISIBLE
+    CONTROL         "&Read Only",chx1,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_GROUP | WS_TABSTOP,9999,68,50,12
+    LISTBOX         lst1,9999,94,18,23,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | NOT WS_VISIBLE | 
+                    WS_VSCROLL
+    COMBOBOX        cmb1,9999,119,23,46,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    NOT WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+300 DIALOG DISCARDABLE  0, 0, 325, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Pow!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Ok",IDOK,7,130,50,14
+    PUSHBUTTON      "About &Plug-In",IDD_ABOUTPLUGIN,64,130,50,14
+    PUSHBUTTON      "Hall of &Fame",IDD_ABOUTHALL,120,130,50,14
+END
+
+2300 DIALOG DISCARDABLE  42, 31, 186, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pow! Hall of Fame"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,8,2,171,158
+    DEFPUSHBUTTON   "&Ok",IDD_OK,72,167,40,15,WS_GROUP
+    LTEXT           "The following people created tools and",IDC_STATIC,17,
+                    15,156,8
+    LTEXT           "extensions for the Pow! environment.",IDC_STATIC,17,26,
+                    155,8
+    LTEXT           "We would like to thank them for generously",IDC_STATIC,
+                    17,37,155,8
+    LTEXT           "contributing time and effort.",IDC_STATIC,17,48,156,8
+    LISTBOX         IDD_HALLLIST,16,61,156,92,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""pow.h""\r\n"
+    "#include ""powsupp.h""\r\n"
+    "#include <dlgs.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    300, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    2300, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 179
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "pow\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "pow\0"
+            VALUE "LegalCopyright", "Copyright © 1998\0"
+            VALUE "OriginalFilename", "pow.exe\0"
+            VALUE "ProductName", "  pow\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANTOPEN            "Can't open the file '%s'"
+    IDS_CANTCREATE          "Can't create the file '%s'"
+    IDS_ILLFNM              "Invalid filename: '%s'"
+    IDS_ADDEXT              ".MOD"
+    IDS_CLOSESAVE           "'%s' has been changed.  Save file before closing?"
+    IDS_CANTFIND            "String '%s' not found"
+    IDS_HELPNOTAVAIL        "Can't load Windows Help application"
+    IDS_ALREADYLOADED       "Program already active!"
+    IDS_NOTIMPLEMENTED      "Not implemented yet!"
+    IDS_WRONGEXTENSION      "'%s' has an invalid extension for a project file!"
+    IDS_CONTAINSWILD        "The file specification '%s' is invalid!"
+    IDS_WRONGPATH           "Path does not exist!"
+    IDS_CLIENTTITLE         "Pow! Oberon Workbench"
+    IDS_UNTITLED            "Untitled"
+    IDS_PRINTJOB            "Pow! - "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PRINTERROR          "File '%s' not printed!"
+    IDS_OVERWRITEFILE       "Overwrite existing %s?"
+    IDS_OKTOREPLACE         "Ok to replace selection?"
+    IDS_PRINTABORTED        "Printout aborted!"
+    IDS_NOFILE              "File '%s' does not exist. Would you like to create it?"
+    IDS_NOCOMPILER          "No compiler selected!"
+    IDS_CANTOPENDLL         "Can't open compiler DLL '%s' (error %d)!"
+    IDS_CANTCOMPILE         "File '%s' is not of appropriate type!"
+    IDS_NOPROJECT           "No project defined!"
+    IDS_CIRCULARDEPEND      "Circular dependency detected!"
+    IDS_STARTTEST           "Speed test of Compiler-Workbench Interface"
+    IDS_OPENTESTFILE        "Activate a *.mod-file to test"
+    IDS_CANTREAD            "Can't read the file '%s'"
+    IDS_NOCOMPHELP          "The selected language does not support help!"
+    IDS_OVERWRITEEXIST      "Overwrite existing '%s'?"
+    IDS_FILETOOLARGE        "There is not enough memory to edit the file '%s'!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUSEARCHIGNORE    "Ignore warnings in message box."
+    IDS_RUNERROR0           "Error 0: memory error or file corrupt!"
+    IDS_RUNERROR2           "Error 2: program not found!"
+    IDS_RUNERROR3           "Error 3: path to program not found!"
+    IDS_RUNERROR8           "Error 8: not enough memory to start program!"
+    IDS_CANTOPENDEFPRJ      "You may not open the default project!"
+    IDS_NOPROGRAM           "There is no program to start."
+    IDS_NOTHINGTOMAKE       "No source code to compile."
+    IDS_TOOLNOTFOUND        "Tool '%s' not found."
+    IDS_TOOLNOTSTARTED      "Cannot start tool '%s'."
+    IDS_CANNOTLOADEDITOR    "Cannot load editor '%s'."
+    IDS_NOEDITORPROCEDURE   "Editor DLL exports no procedure '%s'!"
+    IDS_NOEDITOR            "No editor selected in preferences!"
+    IDS_MENUOPTEDIT         "Change editor options."
+    IDS_MENUHELPEDIT        "Show help for selected editor."
+    IDS_DDEFAILED           "DDE transaction with '%s' failed!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANTWRITE           "Can't write the file '%s'"
+    IDS_APPNAME             "Pow!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOPROG              "No project executable '%s'!"
+    IDS_CREATEPROJECT       "Project '%s' is not defined. Would you like to create it?"
+    IDS_CANTALLOCDEP        "Cannot allocate dependency matrix!"
+    IDS_PROJECTCHANGED      "A project file has changed! Make new program?"
+    IDS_REALLYDELETE        "Ok to delete file '%s'?"
+    IDS_NOPROJECTFILE       "Project file '%s' not found!"
+    IDS_STATERROR           "Stat reports error #%d on file '%s'!"
+    IDS_UPTODATE            "Project is up to date."
+    IDS_NOEXECUTABLE        "Target is no executable program."
+    IDS_NODLLFUNCTION       "DLL '%s' exports no function '%s'!"
+    IDS_MENUFILENEW         "Create a new edit file."
+    IDS_MENUFILEOPEN        "Edit an existing file."
+    IDS_MENUFILESAVE        "Save content of active edit window."
+    IDS_MENUFILESAVEAS      "Save content of active edit window as new file."
+    IDS_MENUFILESAVEALL     "Save content of all modified edit windows."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUFILEPRINT       "Print content of active edit window."
+    IDS_MENUFILESETUP       "Change printer settings."
+    IDS_MENUFILEEXIT        "Leave program."
+    IDS_MENUEDITUNDO        "Undo last edit action."
+    IDS_MENUEDITREDO        "Redo undone edit action."
+    IDS_MENUEDITCUT         "Cut selection to clipboard."
+    IDS_MENUEDITCOPY        "Copy selection to clipboard."
+    IDS_MENUEDITPASTE       "Insert clipboard content."
+    IDS_MENUEDITCLEAR       "Delete selected text."
+    IDS_MENUSEARCHFIND      "Find string in edit buffer."
+    IDS_MENUSEARCHREPLACE   "Replace string in edit buffer by new string."
+    IDS_MENUSEARCHNEXT      "Repeat last find/replace action."
+    IDS_MENUSEARCHGOTOLINE  "Position caret at a specific line number."
+    IDS_MENUSEARCHFINDNEXTERR "Show next compile-error."
+    IDS_MENUSEARCHFINDPREVERR "Show previous compile-error."
+    IDS_MENURUNRUN          "Run project executable."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENURUNDEBUG        "Debug project executable."
+    IDS_MENURUNPARAM        "Specify arguments for project executable."
+    IDS_MENUCOMPCOMP        "Compile active edit file."
+    IDS_MENUCOMPMAKE        "Compile changed files of project."
+    IDS_MENUCOMPBUILD       "Compile all project sources."
+    IDS_MENUCOMPOPENPRJ     "Open an existing / create a new project."
+    IDS_MENUCOMPEDITPRJ     "Edit active project definition."
+    IDS_MENUCOMPSAVEASPRJ   "Save project definition as new file."
+    IDS_MENUCOMPFROMTEMP    "Extract a new project from template."
+    IDS_MENUCOMPSAVETEMP    "Save project definition as template."
+    IDS_MENUTOOLSOPT        "Add/remove tool definitions."
+    IDS_MENUOPTCOMP         "Change compiler options for project."
+    IDS_MENUOPTLINK         "Change linker options for project."
+    IDS_MENUOPTPREF         "Change Pow! configuration."
+    IDS_MENUOPTDIR          "Select project directories."
+    IDS_MENUOPTOPEN         "Load configuration file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILENOTEXISTS       "File '%s' does not exist!"
+    IDS_USEOLDEDITOR        "Editor not changed!"
+    IDS_LINKANYWAY          "Some files should be compiled first (use make). Continue with linking? (may produce erroneous executable!)"
+    IDS_ALREADYRUNNING      "A program '%s' is already active. Should I try to terminate the program?"
+    IDS_MENUCOMPLINK        "Link the project files."
+    IDS_PRJNAMEINVALID      "'%s' is an invalid name for a new project (internally used)!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUOPTSAVE         "Save Pow! configuration."
+    IDS_MENUOPTSAVEAS       "Create new configuration file."
+    IDS_MENUWINDOWTILEHOR   "Arrange windows horizontally in tile manner."
+    IDS_MENUWINDOWCASCADE   "Arrange windows in cascade manner."
+    IDS_MENUWINDOWICONS     "Arrange iconized windows."
+    IDS_MENUWINDOWCLOSEALL  "Close all open windows."
+    IDS_MENUHELPINDEX       "Show index of Pow! help."
+    IDS_MENUHELPTOPIC       "Search for help on a specific topic."
+    IDS_MENUHELPCOMP        "Show help for selected compiler."
+    IDS_MENUHELPUSING       "How to use the help system."
+    IDS_MENUHELPABOUT       "Get program and compiler information."
+    IDS_MENUBUGREPORT       "Add text to file 'pow.bug'."
+    IDS_MENUCOMPCLOSPRJ     "Close project definition."
+    IDS_CANTMKDIR           "Cant create directory '%s'!"
+    IDS_NOVALIDPROJECT      "'%s' is not a valid project file!"
+    IDS_MENUWINDOWTILEVER   "Arrange windows vertically in tile manner."
+END
+
+#endif    // German (Austria) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

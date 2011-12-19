@@ -1,0 +1,54 @@
+LIBRARY      PowEdit
+
+DESCRIPTION  'Tiny Editor for Pow! (based on EDIT-Controls)'
+
+HEAPSIZE     63500
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+EXPORTS      InterfaceVersion
+             NewEditWindow
+             CloseEditWindow
+             HasChanged
+             LoadFile
+             SaveFile
+             GetCursorpos
+             Copy
+             Paste
+             Cut
+             Clear
+             Undo
+             Redo
+             GotoPos
+             Search
+             Replace
+             EditOptions
+             Keywords
+             SetCommandProcedure
+             Comments
+             SetHelpFile
+             GetFirstBuffer
+             GetNextBuffer
+             GeneratesAscii
+             LoadOpen
+             LoadRead
+             LoadClose
+             PrintWindow
+             InsertText
+             AddText
+             ResizeWindow
+             HasSelection
+             ResetContent
+             GetText
+             GetLine
+             ShowHelp
+             CanUndo
+
+             PowEditWndProc
+             PowEditOptionsDlgProc
+             ChooseFontHook
+
+             MyDllEntryPoint
+             StreamInProc
+             StreamOutProc

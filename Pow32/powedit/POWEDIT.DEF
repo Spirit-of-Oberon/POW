@@ -1,0 +1,57 @@
+LIBRARY      PowEdit
+
+DESCRIPTION  'Tiny Editor for Pow! (based on EDIT-Controls)'
+
+EXETYPE      WINDOWS
+
+HEAPSIZE     63500
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+EXPORTS      InterfaceVersion @1 RESIDENTNAME
+             NewEditWindow   @2 RESIDENTNAME
+             CloseEditWindow  @3 RESIDENTNAME
+             HasChanged  @4 RESIDENTNAME
+             LoadFile  @5 RESIDENTNAME
+             SaveFile  @6 RESIDENTNAME
+             GetCursorpos  @7 RESIDENTNAME
+             Copy  @8 RESIDENTNAME
+             Paste  @9 RESIDENTNAME
+             Cut  @10 RESIDENTNAME
+             Clear  @11 RESIDENTNAME
+             Undo  @12 RESIDENTNAME
+             Redo  @13 RESIDENTNAME
+             GotoPos  @15 RESIDENTNAME
+             Search  @16 RESIDENTNAME
+             Replace  @17 RESIDENTNAME
+             EditOptions  @18 RESIDENTNAME
+             Keywords  @19 RESIDENTNAME
+             SetCommandProcedure  @20 RESIDENTNAME
+             Comments  @21 RESIDENTNAME
+             SetHelpFile  @22 RESIDENTNAME
+             GetFirstBuffer  @23 RESIDENTNAME
+             GetNextBuffer  @24 RESIDENTNAME
+             GeneratesAscii  @25 RESIDENTNAME
+             LoadOpen  @26 RESIDENTNAME
+             LoadRead  @27 RESIDENTNAME
+             LoadClose  @28 RESIDENTNAME
+             PrintWindow @29 RESIDENTNAME
+             InsertText @30 RESIDENTNAME
+             AddText @31 RESIDENTNAME
+             ResizeWindow @32 RESIDENTNAME
+             HasSelection @33 RESIDENTNAME
+             ResetContent @34 RESIDENTNAME
+             GetText @35 RESIDENTNAME
+             GetLine @36 RESIDENTNAME
+             ShowHelp @37 RESIDENTNAME
+             CanUndo @38 RESIDENTNAME
+
+             PowEditWndProc @39
+             PowReadOnlyWndProc @40
+             PowEditOptionsDlgProc @41
+             PrintDlgProc @42
+             PrintAbortProc @43
+             ChooseFontHook @44
+             WEP @45 RESIDENTNAME
+

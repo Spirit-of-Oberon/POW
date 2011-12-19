@@ -1,0 +1,61 @@
+NAME         Pow!
+
+DESCRIPTION  'Pow! Oberon Workbench'
+
+EXETYPE      WINDOWS
+
+STUB         'WINSTUB.EXE'
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE MULTIPLE
+
+HEAPSIZE     10000
+STACKSIZE    30000
+
+EXPORTS
+    FrameWndProc        @1
+    MDIChildWndProc     @2
+    PowTextWndProc      @3
+    AboutDlgProc        @4
+    FindDlgProc         @5
+    ReplaceDlgProc      @6
+;    PrintDlgProc       @7
+;    AbortProc          @8
+;    FileOpenDlgProc    @9
+;    PrjDlgProc         @10
+    ToolDlgProc         @11
+    ArgDlgProc          @12
+    GotoLineDlgProc     @13
+    RunArgsDlgProc      @14
+    GetPrefsDlgProc     @15
+;    EnumFontsProc      @16
+;    EnumChgChildFonts  @17
+    EnumOpenWindows     @18
+
+;    AddFontToCombo     @20
+    InsProjectFile      @21
+    AddToolMenu         @22
+    ListTool            @23
+    MessageOut          @24
+    ErrorOut            @25
+    GetDependencies     @26
+    Dependency          @27
+    PowReadWndProc      @28
+    FileInProject       @29
+    BugReportDlgProc    @30
+    WriteProjectFile    @31
+    AddDllToolDlgProc   @32
+    AddDdeToolDlgProc   @33
+    DdeCallbackProc     @34
+    NewProjectHookProc  @35
+    PowDdeServerProc    @36
+    ModuleDependency    @37
+    DefOpenFile         @38
+    DefReadFile         @39
+    DefCloseFile        @40
+    EnumerateKeywords   @41
+    EditProjectHookProc @42
+    SelectTemplateDlgProc   @43   
+    ChooseDirectoryHookProc @44
+    HallOfFameDlgProc   @45
+

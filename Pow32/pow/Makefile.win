@@ -1,0 +1,86 @@
+# Project: Pow
+# Makefile created by Dev-C++ 5.0.0.9
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Pow.o POWBUG.o POWCOMP.o powCompiler.o POWDDE.o POWED.o POWFILE.o POWFIND.o POWINIT.o powintro.o POWOPEN.o Powopts.o POWPRINT.o POWPROJ.o POWRIBB.o POWRUN.o POWSTAT.o POWTEMP.o POWTEXT.o POWTOOLS.o $(RES)
+LINKOBJ  = Pow.o POWBUG.o POWCOMP.o powCompiler.o POWDDE.o POWED.o POWFILE.o POWFIND.o POWINIT.o powintro.o POWOPEN.o Powopts.o POWPRINT.o POWPROJ.o POWRIBB.o POWRUN.o POWSTAT.o POWTEMP.o POWTEXT.o POWTOOLS.o $(RES)
+LIBS     = -L"C:/MinGW32/lib"  
+INCS     = -I"C:/MinGW32/include" 
+CXXINCS  = -I"C:/MinGW32/lib/gcc/mingw32/4.6.1/include"  -I"C:/MinGW32/lib/gcc/mingw32/4.6.1/include/c++/backward"  -I"C:/MinGW32/lib/gcc/mingw32/4.6.1/include/c++/mingw32"  -I"C:/MinGW32/lib/gcc/mingw32/4.6.1/include/c++"  -I"C:/MinGW32/include" 
+BIN      = Pow.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS   = $(INCS)  
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Pow.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "Pow.exe" $(LIBS)
+
+Pow.o: Pow.c
+	$(CC) -c Pow.c -o Pow.o $(CFLAGS)
+
+POWBUG.o: POWBUG.C
+	$(CC) -c POWBUG.C -o POWBUG.o $(CFLAGS)
+
+POWCOMP.o: POWCOMP.C
+	$(CC) -c POWCOMP.C -o POWCOMP.o $(CFLAGS)
+
+powCompiler.o: powCompiler.c
+	$(CC) -c powCompiler.c -o powCompiler.o $(CFLAGS)
+
+POWDDE.o: POWDDE.C
+	$(CC) -c POWDDE.C -o POWDDE.o $(CFLAGS)
+
+POWED.o: POWED.C
+	$(CC) -c POWED.C -o POWED.o $(CFLAGS)
+
+POWFILE.o: POWFILE.C
+	$(CC) -c POWFILE.C -o POWFILE.o $(CFLAGS)
+
+POWFIND.o: POWFIND.C
+	$(CC) -c POWFIND.C -o POWFIND.o $(CFLAGS)
+
+POWINIT.o: POWINIT.C
+	$(CC) -c POWINIT.C -o POWINIT.o $(CFLAGS)
+
+powintro.o: powintro.c
+	$(CC) -c powintro.c -o powintro.o $(CFLAGS)
+
+POWOPEN.o: POWOPEN.C
+	$(CC) -c POWOPEN.C -o POWOPEN.o $(CFLAGS)
+
+Powopts.o: Powopts.c
+	$(CC) -c Powopts.c -o Powopts.o $(CFLAGS)
+
+POWPRINT.o: POWPRINT.C
+	$(CC) -c POWPRINT.C -o POWPRINT.o $(CFLAGS)
+
+POWPROJ.o: POWPROJ.C
+	$(CC) -c POWPROJ.C -o POWPROJ.o $(CFLAGS)
+
+POWRIBB.o: POWRIBB.C
+	$(CC) -c POWRIBB.C -o POWRIBB.o $(CFLAGS)
+
+POWRUN.o: POWRUN.C
+	$(CC) -c POWRUN.C -o POWRUN.o $(CFLAGS)
+
+POWSTAT.o: POWSTAT.C
+	$(CC) -c POWSTAT.C -o POWSTAT.o $(CFLAGS)
+
+POWTEMP.o: POWTEMP.C
+	$(CC) -c POWTEMP.C -o POWTEMP.o $(CFLAGS)
+
+POWTEXT.o: POWTEXT.C
+	$(CC) -c POWTEXT.C -o POWTEXT.o $(CFLAGS)
+
+POWTOOLS.o: POWTOOLS.C
+	$(CC) -c POWTOOLS.C -o POWTOOLS.o $(CFLAGS)

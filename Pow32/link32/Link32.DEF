@@ -1,0 +1,5 @@
+LIBRARY Link32
+
+EXPORTS 
+   Link32 @1
+   GetLinkVersion @2

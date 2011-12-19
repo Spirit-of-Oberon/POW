@@ -1,0 +1,13 @@
+Pow! is a software development environment for Microsoft Windows. It allows the generation of native Windows applications using the hybrid object-oriented programming language Oberon-2. Included in the package is an Oberon-2 compiler developed by Robinson Associates. 
+
+ Pow! offers all the functions known from other programming environments: a multi-document-editor, embedded compile- and link calls, integrated make- and build-algorithms for project-management and online help for the environment, the programming language Oberon-2 and the enclosed programming library Opal. 
+
+ Additionally, Pow! supports  Java (using the JDK) and C/C++. 
+
+ Who needs Pow! ? Everybody who would like to use a high - quality integrated development environment for Java or Oberon-2 should have a look at Pow!. (And did we mention that it is available free of charge?)
+
+Java Users: Pow! is a comfortable environment around the command line oriented tools which come with Suns JDK. Compilation and program invocation are available at the touch of a button while the integrated editor allows to view and edit multiple source files at the same time.  
+
+Oberon-2 Users: Pow! offers a full implementation of the language Oberon-2. Pow! is therefore the ideal choice for anyone who would like a native Windows based development environment for Oberon-2. Pow! also includes the Oberon-2 library OPAL, which makes it easy to create native Windows programs without getting into contact with the Windows API directly. 
+
+Oberon-2 is a very good choice for programming lectures. It offers both conventional and object-oriented programming paradigms and is very restrictive in its syntax (it is "type-safe"), a property important for beginners in programming.

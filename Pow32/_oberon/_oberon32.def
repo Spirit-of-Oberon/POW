@@ -1,0 +1,42 @@
+LIBRARY
+
+DESCRIPTION  'Pow! Compiler Interface DLL for Oberon-2 (32-Bit)'
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+HEAPSIZE     32767
+
+EXPORTS      InitInterface     @1
+             AboutCompiler     @2
+             CompileOptions    @3
+             CompileFile       @4
+             CheckDepend       @5
+             FileWasCompiled   @6
+             LinkerOptions     @7
+             Link              @8
+             DirectoryOptions  @9
+             NewProject        @10
+             WriteOptions      @11
+             ReadOptions       @12
+             GetExtensions     @13
+             HelpCompiler      @14
+             EditorSyntax      @15
+             EditorComment     @16
+             ExitInterface     @17
+             GetExecutable     @18
+             NewProjectName    @19
+             ChangeModuleName  @20
+
+             CompOptDlgProc    @21
+             LinkOptDlgProc    @22
+             GetDirsDlgProc    @23
+             CompAboutDlgProc  @24
+             ErrorCallback     @25
+             IgnoreErrors      @26
+             ResourceError     @27
+             SourceAvailable   @28
+             MustBeBuilt       @29
+             CheckIfYounger    @30
+             GetHelpFile       @31
+			 GetTarget         @32

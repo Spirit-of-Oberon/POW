@@ -1,0 +1,141 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "powedit.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_ED_OPTIONS DIALOG DISCARDABLE  30, 32, 209, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Editor Options"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "Editor",-1,6,6,91,87
+    CONTROL         "Auto &indent",IDD_ED_INDENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,20,55,14
+    CONTROL         "Us&e tabs",IDD_ED_TABS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,38,43,14
+    LTEXT           "&Spaces for tabs:",IDD_ED_TSIZE,14,57,53,14
+    EDITTEXT        IDD_ED_TEDIT,26,71,62,13,ES_MULTILINE | ES_UPPERCASE
+    GROUPBOX        "Right mouse button",-1,102,6,96,48
+    CONTROL         "Nothin&g",IDD_ED_MOUNOT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,109,19,59,14
+    CONTROL         "&Topic search",IDD_ED_MOUTOPIC,"Button",
+                    BS_AUTORADIOBUTTON,109,34,69,14
+    GROUPBOX        "Fo&nt",-1,102,59,97,34
+    PUSHBUTTON      "",IDD_ED_FONT,108,71,84,14
+    DEFPUSHBUTTON   "&Ok",IDD_OK,24,102,47,15
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,79,102,47,15
+    PUSHBUTTON      "&Help",IDD_HELP,134,102,47,15
+END
+
+ID_ED_PRINT DIALOG DISCARDABLE  44, 37, 209, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,5,6,197,48
+    LTEXT           "Printing",-1,9,14,45,10
+    LTEXT           "on the",-1,9,25,45,10
+    LTEXT           "on",-1,9,36,45,10
+    LTEXT           "",IDD_ED_PRINTTITLE,58,14,138,10
+    LTEXT           "",IDD_ED_PRINTDEVICE,58,25,138,10
+    LTEXT           "",IDD_ED_PRINTPORT,58,36,138,10
+    DEFPUSHBUTTON   "&Cancel",IDD_CANCEL,155,60,47,15
+END
+
+ID_ED_FONT DIALOG DISCARDABLE  13, 54, 185, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Font Selection"
+FONT 8, "Helv"
+BEGIN
+    GROUPBOX        "",-1,5,5,175,93
+    LTEXT           "&Font:",1088,11,11,40,9
+    COMBOBOX        1136,11,22,100,70,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,120,11,43,9
+    COMBOBOX        1138,120,22,50,69,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | CBS_NOINTEGRALHEIGHT | 
+                    CBS_DISABLENOSCROLL | WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Ok",IDD_OK,42,108,47,15
+    PUSHBUTTON      "&Cancel",IDD_CANCEL,104,108,47,15
+    LTEXT           "Schrifts&til:",1089,9999,2,44,9
+    COMBOBOX        1137,9999,13,64,54,CBS_SIMPLE | CBS_DISABLENOSCROLL | 
+                    WS_VSCROLL
+    PUSHBUTTON      "&Zuweisen",1026,9999,57,45,14,WS_GROUP
+    PUSHBUTTON      "&Hilfe",1038,9999,57,45,14,WS_GROUP
+    GROUPBOX        "Darstellung",1072,9999,72,94,34,WS_GROUP
+    CONTROL         "&Durchgestrichen",1040,"Button",BS_AUTOCHECKBOX,9999,82,
+                    85,10
+    CONTROL         "&Unterstrichen",1041,"Button",BS_AUTOCHECKBOX,9999,94,
+                    85,10
+    LTEXT           "&Farbe:",1091,9999,110,30,9
+    COMBOBOX        1139,9999,120,94,100,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_HASSTRINGS | 
+                    WS_BORDER | WS_VSCROLL
+    CTEXT           "",1093,9999,124,190,20,SS_NOPREFIX | NOT WS_GROUP
+    CTEXT           "AaBbYyZz",1092,9999,115,173,37,SS_NOPREFIX | NOT 
+                    WS_VISIBLE
+    GROUPBOX        "Sample",1073,9999,109,185,49
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""powedit.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,13 @@
+List of POW! packages
+
+Pow32: This is the main package which includes the Pow! environment, the simple editor PowEdit, the 32-bit linker and the compiler interfaces for Oberon-2, Java and C++. The programming language C was used. The projects are made with Microsoft Visual C++ 5.0. (If you build this project you will encounter a problem if you haven't downloaded the package Compiler. So it is recommended to download the next package, too.) 
+Compiler: This package includes the Oberon-2 compiler. It is written in Oberon-2. Be aware that you need the package Rts32Compiler, too. 
+BoostEd: This package includes the editor BoostEd which is written in Oberon-2. 
+Help: This package includes several projects for help files. Some of them are available in two languages, English and German. You need Microsoft Help Workshop. 
+Opal: This package includes the library Opal which is written in Oberon-2. 
+Rts32: This packages includes the runtime system for Oberon-2 programs. It is written in Oberon-2. 
+Rts32Compiler: This package includes a special runtime system for the Oberon-2 compiler. 
+Startup: This package includes several startup modules for Oberon-2 programs. 
+SymBrowser: This package includes the symbol file browser. 
+WinApi: This packages includes several definition modules for Windows API functions. 
+

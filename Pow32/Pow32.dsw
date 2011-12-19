@@ -1,0 +1,125 @@
+Microsoft Developer Studio Workspace File, Format Version 5.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "_gcc"=.\_gcc\_gcc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "_java"=.\_java\_java.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "_oberon32"=.\_oberon\_oberon32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name powsup32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name link32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "link32"=.\link32\link32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "pow"=.\pow\pow.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name _java
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name _oberon32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name link32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name powsup32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name powedit
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name _gcc
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "powedit"=.\powedit\powedit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "powsup32"=.\powsup\powsup32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
